@@ -10,6 +10,8 @@ if __name__ == "__main__":
         ada=ada.make()
     )
 
-    strip.color_wipe(
-        r.Color(255, 0, 0)
-    )
+    strip.clear()
+
+    strip[4][4].color = r.Color(255, 255, 255)
+
+    strip.update()
