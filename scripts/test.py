@@ -12,6 +12,9 @@ if __name__ == "__main__":
 
     strip.clear()
 
-    strip[4][4].color = r.Color(255, 255, 255)
+    strip[0][0].color = r.Color(255, 255, 255)
+    strip[1][0].color = r.Color(255, 0, 0)
+    strip[0][1].color = r.Color(0, 255, 0)
+    strip[1][1].color = r.Color(0, 0, 255)
 
     strip.update()
